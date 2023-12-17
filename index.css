@@ -29,11 +29,14 @@ div.top {
 
 h1.time {
     text-align: center;
-    font-size: 72px;
+    font-size: 10em;
 }
 
 div#crypto {
     font-size: 1.3rem;
+    background-color: rgba(240, 248, 255, 0.524);
+    border-radius: 5px;
+    padding: 1em;
 }
 
 div#crypto > p {
@@ -60,18 +63,51 @@ div#weather {
 }
 
 div#weather > img {
-    width: 70px;
+    width: 140px;
 }
 
 p.weather-city {
     width: 100%;
     text-align: right;
+    font-size: 28px;
     margin: 0;
     margin-top: -10px;
 }
 
 p.weather-temp {
     margin: 0;
-    font-size: 1.7rem;
+    font-size: 3.7rem;
     margin-left: -10px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+#author {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.shortcuts {
+    width: auto;
+    background-color: rgba(240, 248, 255, 0.524);
+    border-radius: 5px;
+    /* opacity: 70%; */
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding: 1em;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+#shortcut1{
+    width: 100px;
+    height: 100px;
 }
